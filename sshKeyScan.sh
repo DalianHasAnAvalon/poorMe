@@ -12,5 +12,5 @@ if [ $1 ]; then
   ssh-keyscan -H $1 >> known_hosts
 fi
 if [ $2 ]; then
-  ssh-keyscan -H $1 >> known_hosts
+  ssh-keyscan -H $2 >> known_hosts
 fi
